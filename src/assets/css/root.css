@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --ff-rubik: 'Rubik';
+
+    --fs-sm: 12px;
+    --fs-md: 16px;
+    --fs-lg: 22px;
+    --fs-xl: 24px;
+    --fs-2xl: 40px;
+    --fs-3xl: 52px;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semiBold: 600;
+    --fw-bold: 700;
+    --fw-extraBold: 800;
+    --fw-extraLarge: 900;
+}
+
+.ff_rubik {
+    font-family: var(--ff-rubik) !important;
+}
+
+.fs_12 {
+    font-size: var(--fs-sm) !important;
+}
+
+
+.fs_16 {
+    font-size: var(--fs-md) !important;
+}
+
+
+.fs_22 {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs_24 {
+    font-size: var(--fs-xl) !important;
+}
+
+.fs_40 {
+    font-size: var(--fs-2xl) !important;
+}
+
+.fs_52 {
+    font-size: var(--fs-3xl) !important;
+}
+
+.fw_300 {
+    font-weight: var(--fw-light) !important;
+}
+
+.fw_400 {
+    font-weight: var(--fw-regular) !important;
+}
+
+.fw_500 {
+    font-weight: var(--fw-medium) !important;
+}
+
+.fw_600 {
+    font-weight: var(--fw-semiBold) !important;
+}
+
+.fw_700 {
+    font-weight: var(--fw-bold) !important;
+}
+
+.fw_800 {
+    font-weight: var(--fw-extraBold) !important;
+}
+
+.fw_900 {
+    font-weight: var(--fw-extraLarge) !important;
+}
+
+
+@media (max-width:576px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 16px;
+        --fs-lg: 22px;
+        --fs-xl: 24px;
+        --fs-2xl: 40px;
+        --fs-3xl: 52px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 16px;
+        --fs-lg: 22px;
+        --fs-xl: 24px;
+        --fs-2xl: 40px;
+        --fs-3xl: 52px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 16px;
+        --fs-lg: 22px;
+        --fs-xl: 24px;
+        --fs-2xl: 40px;
+        --fs-3xl: 52px;
+    }
+}
